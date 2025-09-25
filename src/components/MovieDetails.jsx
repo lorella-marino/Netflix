@@ -15,7 +15,7 @@ const MovieDetails = () => {
   useEffect(() => {
     const fetchMovieDetails = async () => {
       try {
-        const response = await fetch(`http://www.omdbapi.com/?i=${movieId}&apikey=1a15f902`);
+        const response = await fetch(`https://www.omdbapi.com/?i=${movieId}&apikey=1a15f902`);
         if (!response.ok) {
           throw new Error("Errore");
         }

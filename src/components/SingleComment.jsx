@@ -10,7 +10,7 @@ const SingleComment = ({ comment, onDelete }) => (
       <div>
         <button className="bg-secondary border-0 rounded-2 me-3" onClick={() => onDelete(comment._id)}>
           <svg
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
             width="16"
             height="16"
             fill="currentColor"

@@ -7,7 +7,7 @@ const Gallery = ({ title, filmTitle }) => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    fetch(`http://www.omdbapi.com/?s=${filmTitle}&apikey=1a15f902`)
+    fetch(`https://www.omdbapi.com/?s=${filmTitle}&apikey=1a15f902`)
       .then((response) => response.json())
       .then((data) => {
         if (data.Search) {
