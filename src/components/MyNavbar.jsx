@@ -10,7 +10,7 @@ const MyNavbar = () => {
     <Navbar>
       <Container className="justify-content-start align-items-center">
         <Navbar.Brand href="#">
-          <img src="./src/assets/img/pngegg.png" alt="Logo" width="80" />
+          <img src="./src/assets/img/logo.png" alt="Logo" width="80" />
         </Navbar.Brand>
         <Nav className="d-flex flex-row">
           <Nav.Link href="#" className="fs-6 text-secondary fw-semibold mx-2">
